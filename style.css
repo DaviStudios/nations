@@ -23,7 +23,7 @@ html {
   background-repeat: no-repeat;
 }
 body {
-  font-family: 'ubuntu', sans-serif;
+  font-family: 'fantasy', Fantasy;
 }
 .mod {
   border-radius: 10px;
@@ -45,4 +45,9 @@ body {
   background-image: linear-gradient(to right, #61ff81, #ffea00);
   background-size: 500% 1000% 500% 1000%;
   background-repeat: no-repeat;
+}
+#ds {
+  color: purple;
+  cursor: pointer;
+  font-size: 20px;
 }
