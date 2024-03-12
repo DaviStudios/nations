@@ -22,8 +22,12 @@ html {
   background-size: 2500px 1250px;
   background-repeat: no-repeat;
 }
+@font-face {
+    font-family: 'mainfonts';
+    src: url('PressStart2P-Regular.ttf') format('truetype');
+}
 body {
-  font-family: 'fantasy', Fantasy;
+  font-family: 'mainfonts';
 }
 .mod {
   border-radius: 10px;
