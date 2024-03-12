@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#a {
+  background-image: linear-gradient(to right, #ff0000, #ffb22e);
+  background-size: 50% 100% 50% 100%;
+  background-repeat: no-repeat;
+}
+#c {
+  background-image: linear-gradient(to right, #61ff81, #ffea00);
+  background-size: 50% 100% 50% 100%;
+  background-repeat: no-repeat;
+}
+.txtn {
+  background-image: linear-gradient(to right, #006eff, #00aaff);
+  background-size: 102px 20px;
+  background-repeat: no-repeat;
+}
+.txtn2 {
+  background-image: linear-gradient(to right, #ff0000, #ae00ff);
+  background-size: 2500px 1250px;
+  background-repeat: no-repeat;
+}
+body {
+  font-family: 'ubuntu', sans-serif;
+}
+.mod {
+  border-radius: 10px;
+  display: none;
+  height: 60px;
+  width: 600px;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #61ff81, #ffea00);
+  background-size: 50% 100% 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.mod2 {
+  border-radius: 10px;
+  display: none;
+  height: 300px;
+  width: 600px;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #61ff81, #ffea00);
+  background-size: 500% 1000% 500% 1000%;
+  background-repeat: no-repeat;
+}
