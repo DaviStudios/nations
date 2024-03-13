@@ -55,6 +55,7 @@ let canTick = true
 let used = false
 let mods = []
 let menuMods = false
+let bType = 3
 
 function c() {
   const entries = Object.entries(nations);
@@ -86,9 +87,24 @@ function tick() {
     }
     for (const k in nations) {
       const nl = document.createElement('li');
+      nl.onclick = function() {
+        bonus(bType, nations[k].key)
+      }
       nl.textContent = k + ": " + nations[k].name + ", POWER: " + nations[k].power;
-      nl.style = "background-image: linear-gradient(to right, " + nations[k].color + ");" + " background-size: 345px 20px;" + " background-repeat: no-repeat;"
+      nl.style = "background-image: linear-gradient(to right, " + nations[k].color + ");" + " background-size: 550px 30px;" + " background-repeat: no-repeat; cursor: pointer;"
       natsList.appendChild(nl);
+    }
+  }
+}
+
+function bonus(bt, t) {
+  if (t in nations) {
+    if (bt == 1) {
+      nations[t].power = nations[t].power + 5
+    } else if (bt == 2) {
+      nations[t].changeMin = nations[t].changeMin + 1
+    } else if (bt == 3) {
+      nations[t].changeMax = nations[t].changeMax + 1
     }
   }
 }

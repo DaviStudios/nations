@@ -6,15 +6,17 @@ html {
   background-image: linear-gradient(to right, #ff0000, #ffb22e);
   background-size: 50% 100% 50% 100%;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 #c {
   background-image: linear-gradient(to right, #61ff81, #ffea00);
   background-size: 50% 100% 50% 100%;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 .txtn {
   background-image: linear-gradient(to right, #006eff, #00aaff);
-  background-size: 102px 20px;
+  background-size: 180px 1250px;
   background-repeat: no-repeat;
 }
 .txtn2 {
@@ -33,7 +35,7 @@ body {
   border-radius: 10px;
   display: none;
   height: 60px;
-  width: 600px;
+  width: 1200px;
   font-size: 20px;
   background-image: linear-gradient(to right, #61ff81, #ffea00);
   background-size: 50% 100% 50% 100%;
@@ -44,7 +46,7 @@ body {
   border-radius: 10px;
   display: none;
   height: 300px;
-  width: 600px;
+  width: 1200px;
   font-size: 20px;
   background-image: linear-gradient(to right, #61ff81, #ffea00);
   background-size: 500% 1000% 500% 1000%;
@@ -54,4 +56,17 @@ body {
   color: purple;
   cursor: pointer;
   font-size: 20px;
+}
+.green {
+  background-image: linear-gradient(to right, #61ff81, #ffea00);
+  background-size: 50% 100% 50% 100%;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border-radius: 10px;
+}
+.blue {
+  background-image: linear-gradient(to right, #0388fc, #8ceeff);
+  background-size: 50% 100% 50% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 }
